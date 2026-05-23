@@ -1,0 +1,115 @@
+aid: atlas-air-worldwide-holdings
+name: Atlas Air Worldwide Holdings
+description: >-
+  Atlas Air Worldwide Holdings is a global airfreight, charter, and aircraft
+  leasing group headquartered in Purchase, New York and operating across more
+  than 80 countries and 330+ airports. The holding company positions itself as
+  the "Leader in Aviation Outsourcing" and runs three operating businesses:
+  Atlas Air (ACMI, CMI, charter, and military/government cargo and passenger
+  operations on Boeing 747-400F, 747-8F, 777F, 767, and 737-800BCF freighters),
+  Polar Air Cargo (scheduled airport-to-airport cargo network, historically a
+  joint venture with DHL), and Titan Aviation Leasing (commercial aircraft
+  acquisition, leasing, and sale-leaseback services). Atlas is the largest
+  operator of the Boeing 747 freighter, the Dreamlifter operator for Boeing,
+  and one of the principal lift providers for Amazon Air's middle-mile
+  network. In August 2022 a consortium led by Apollo Global Management with
+  J.F. Lehman & Company and Hill City Capital agreed to take the company
+  private in an all-cash transaction valued at approximately US$5.2 billion;
+  the deal closed in March 2023, delisting the company (formerly Nasdaq: AAWW).
+  As a freight carrier the group does not publish a public developer portal or
+  open APIs — integrations with shippers, forwarders, and customers are
+  delivered through private B2B channels (EDI, Cargo-IMP/XML messaging,
+  airwaybill tracking on polaraircargo.com, and account-managed connectivity).
+  A "Track Shipment" tool and a Special Loads request form (specialloads.atlasair.com)
+  are the principal self-service surfaces; an internal-facing GitHub
+  organization (Atlas-Air-Data-Platform) exists but publishes no public repos.
+kind: contract
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - ACMI
+  - Air Cargo
+  - Aircraft Leasing
+  - Airfreight
+  - Airlines
+  - Aviation
+  - Charter
+  - CMI
+  - Dry Leasing
+  - Freight
+  - Freighter Operations
+  - Logistics
+  - Military Charter
+  - Scheduled Cargo
+  - Supply Chain
+url: https://raw.githubusercontent.com/api-evangelist/atlas-air-worldwide-holdings/refs/heads/main/apis.yml
+created: '2026-05-22'
+modified: '2026-05-22'
+position: Consumer
+access: Partner
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.atlasairworldwide.com
+  - type: Portal
+    name: Atlas Air Operating Site
+    url: https://www.atlasair.com
+  - type: Portal
+    name: Polar Air Cargo
+    url: https://www.polaraircargo.com
+  - type: Console
+    name: Polar Air Cargo Shipment Tracking
+    url: https://www.polaraircargo.com
+    description: >-
+      Web-based airwaybill (AWB) lookup is the primary customer self-service
+      surface; no public tracking API is documented.
+  - type: Console
+    name: Atlas Air Special Loads Request
+    url: https://specialloads.atlasair.com
+  - type: Blog
+    name: Tailwinds — Atlas Air Worldwide Blog
+    url: https://www.atlasairworldwide.com/tailwinds-atlas-air-worldwide-blog/
+  - type: ChangeLog
+    name: Atlas Air Worldwide Press Releases
+    url: https://www.atlasairworldwide.com/newsroom/press-releases/
+  - type: Customers
+    name: Notable Customers
+    description: >-
+      Amazon Air (737-800BCF middle-mile lift), DHL Express (767-300F and 777F
+      ACMI), Boeing (747-400LCF Dreamlifter operations for the 787 program),
+      U.S. Department of Defense Air Mobility Command (CRAF participant), and
+      global freight forwarders.
+    url: https://www.atlasair.com/customers/
+  - type: Contact
+    name: Sales & Commercial Contact
+    url: https://www.atlasair.com/contact-us/key-contacts/
+  - type: Contact
+    name: Headquarters
+    description: Purchase, New York, United States — +1 (914) 701-8211, Sales@atlasair.com
+    url: https://www.atlasair.com/contact-us/locations/
+  - type: Regions
+    name: Regional Offices
+    description: >-
+      North America (New York; Miami; Chicago; Dallas; Houston; Los Angeles);
+      South America (Buenos Aires; São Paulo; Santiago; Bogotá; Quito; Callao);
+      EMEIA (Farnborough, UK; Dubai, UAE); Asia/Pacific (Hong Kong).
+    url: https://www.atlasair.com/contact-us/locations/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/atlas-air-worldwide
+  - type: GitHubOrganization
+    name: Atlas Air Data Platform
+    description: >-
+      Internal-facing GitHub organization created April 2025; no public
+      repositories at time of profiling. Listed for completeness.
+    url: https://github.com/Atlas-Air-Data-Platform
+  - type: Partners
+    name: Ownership (Post-Take-Private)
+    description: >-
+      Acquired August 2022 / closed March 2023 by a consortium led by Apollo
+      Global Management with J.F. Lehman & Company and Hill City Capital in an
+      all-cash transaction valued at approximately US$5.2 billion; former
+      ticker Nasdaq: AAWW.
+    url: https://www.atlasairworldwide.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
