@@ -24,7 +24,7 @@ description: >-
   are the principal self-service surfaces; an internal-facing GitHub
   organization (Atlas-Air-Data-Platform) exists but publishes no public repos.
 kind: contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - ACMI
   - Air Cargo
