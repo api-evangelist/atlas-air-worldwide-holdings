@@ -49,6 +49,8 @@ access: Partner
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/atlas-air-worldwide-holdings-domain-security.yml
   - type: Website
     url: https://www.atlasairworldwide.com
   - type: Portal
