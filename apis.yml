@@ -82,7 +82,7 @@ tags_raw:
 url: https://raw.githubusercontent.com/api-evangelist/atlas-air-worldwide-holdings/refs/heads/main/apis.yml
 created: '2026-05-22'
 modified: '2026-05-22'
-position: Consumer
+position: Consuming
 access: Partner
 specificationVersion: '0.23'
 apis: []
