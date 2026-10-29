@@ -1,4 +1,4 @@
-# atlas-air-worldwide-holdings
+# Atlas Air Worldwide Holdings
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,61 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-API Evangelist profile of **Atlas Air Worldwide Holdings**, the Purchase, New York-based global airfreight, charter, and aircraft leasing group that operates Atlas Air, Polar Air Cargo, and Titan Aviation Leasing. Fortune F1000 (rank 833 prior to going private).
+Atlas Air Worldwide Holdings is a global airfreight, charter, and aircraft leasing group headquartered in Purchase, New York and operating across more than 80 countries and 330+ airports. The holding company positions itself as the "Leader in Aviation Outsourcing" and runs three operating businesses: Atlas Air (ACMI, CMI, charter, and military/government cargo and passenger operations on Boeing 747-400F, 747-8F, 777F, 767, and 737-800BCF freighters), Polar Air Cargo (scheduled airport-to-airport cargo network, historically a joint venture with DHL), and Titan Aviation Leasing (commercial aircraft acquisition, leasing, and sale-leaseback services). Atlas is the largest operator of the Boeing 747 freighter, the Dreamlifter operator for Boeing, and one of the principal lift providers for Amazon Air's middle-mile network. In August 2022 a consortium led by Apollo Global Management with J.F. Lehman & Company and Hill City Capital agreed to take the company private in an all-cash transaction valued at approximately US$5.2 billion; the deal closed in March 2023, delisting the company (formerly Nasdaq: AAWW). As a freight carrier the group does not publish a public developer portal or open APIs — integrations with shippers, forwarders, and customers are delivered through private B2B channels (EDI, Cargo-IMP/XML messaging, airwaybill tracking on polaraircargo.com, and account-managed connectivity). A "Track Shipment" tool and a Special Loads request form (specialloads.atlasair.com) are the principal self-service surfaces; an internal-facing GitHub organization (Atlas-Air-Data-Platform) exists but publishes no public repos.
 
-## Profile
+**Areas:** ACMI · Air Cargo · Aircraft Leasing · Air Freight · Airlines · Aviation · Charter · CMI · Dry Leasing · Freight · Freighter Operations · Logistics
 
-| Field | Value |
+## Atlas Air Worldwide Holdings on APIs.io
+
+Everything profiled for Atlas Air Worldwide Holdings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/atlas-air-worldwide-holdings/](https://apis.io/providers/atlas-air-worldwide-holdings/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Atlas Air Worldwide Holdings Domain Security](https://apis.io/security/atlas-air-worldwide-holdings/atlas-air-worldwide-holdings-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.atlasairworldwide.com)
+- [Changelog](https://www.atlasairworldwide.com/newsroom/press-releases/)
+- [Blog](https://www.atlasairworldwide.com/tailwinds-atlas-air-worldwide-blog/)
+- [GitHub](https://github.com/Atlas-Air-Data-Platform)
+
+## API Evangelist rating
+
+**Kin Score 10.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Type | Company (private) |
-| Headquarters | Purchase, New York, USA |
-| Founded | 1992 (Michael Chowdry) |
-| CEO | Michael Steen |
-| Employees | 4,500+ |
-| Footprint | 80+ countries, 330+ airports served |
-| Fleet | 109+ aircraft — Boeing 747-8F, 747-400F, 747-400LCF Dreamlifter, 777F, 767-300BCF, 737-800BCF |
-| Former ticker | Nasdaq: AAWW (delisted March 2023) |
-| Owners | Apollo Global Management, J.F. Lehman & Company, Hill City Capital (take-private closed March 2023, ~US$5.2B all-cash) |
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 0.0 |
 
-## Operating Companies
+**Agent readiness 0.0** — human-only
 
-- **Atlas Air** — ACMI (Aircraft, Crew, Maintenance, Insurance), CMI (Crew, Maintenance, Insurance), commercial and military/government charter, passenger charter (VIP and high-capacity).
-- **Polar Air Cargo** — scheduled airport-to-airport cargo network ("time-definite, airport-to-airport scheduled air cargo service"); historic 49% stake by DHL.
-- **Titan Aviation Leasing** — commercial aircraft acquisition, leasing, and sale-leaseback portfolio.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Notable Customers
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-- **Amazon Air** — Atlas operates Boeing 737-800BCF (and historically 767F and 747-8F) lift in the Prime Air middle-mile network.
-- **DHL Express** — long-running ACMI relationship across 767-300F and 777F.
-- **Boeing** — exclusive operator of the four-strong Boeing 747-400LCF Dreamlifter fleet supporting 787 production.
-- **U.S. Department of Defense / Air Mobility Command** — Civil Reserve Air Fleet (CRAF) participant.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/atlas-air-worldwide-holdings/](https://apis.io/providers/atlas-air-worldwide-holdings/).
 
-## Why no APIs?
+## How this profile is made
 
-Atlas Air Worldwide is a freight and aircraft-leasing carrier, not a software company. There is no public developer portal, no published OpenAPI specs, no SDKs, and no public rate-limit/pricing surface. Customer integrations are handled through private partner channels — EDI, Cargo-IMP/XML messaging, freight-forwarder portals, and account-managed connectivity. The only self-service web surfaces are:
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- Polar Air Cargo airwaybill (AWB) shipment tracking on polaraircargo.com
-- The Special Loads request form at `specialloads.atlasair.com`
-- The "Tailwinds" corporate blog and the Atlas Air Worldwide press release archive
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Atlas Air Worldwide Holdings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-A GitHub organization `Atlas-Air-Data-Platform` was registered in April 2025 with no public repositories at the time of profiling.
+## Open an issue
 
-## Data captured in `apis.yml`
-
-- Three operating company / portal URLs (Atlas Air, Polar Air Cargo, Atlas Air Worldwide holdings site)
-- Console links for shipment tracking and Special Loads requests
-- Blog and press-release URLs (corporate ChangeLog surrogate)
-- Sales / headquarters contact details
-- Regional office locations across the Americas, EMEIA, and Asia-Pacific
-- Notable customer roster (Amazon Air, DHL, Boeing, DoD/AMC)
-- LinkedIn and GitHub presence
-- Ownership / take-private partnership history
-
-## Sources
-
-- [www.atlasairworldwide.com](https://www.atlasairworldwide.com)
-- [www.atlasair.com](https://www.atlasair.com)
-- [www.polaraircargo.com](https://www.polaraircargo.com)
-- [Atlas Air Worldwide press releases](https://www.atlasairworldwide.com/newsroom/press-releases/)
-- [Tailwinds blog](https://www.atlasairworldwide.com/tailwinds-atlas-air-worldwide-blog/)
-- Wikipedia — Atlas Air Worldwide Holdings
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/atlas-air-worldwide-holdings/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
